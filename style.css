@@ -11,6 +11,10 @@
     -webkit-text-stroke: 1px #000;
     /* color: transparent;  */
 }
+.texto-borde1 {
+    -webkit-text-stroke: 0.5px #000;
+    /* color: transparent;  */
+}
 .resaltHome {
     display: relative;
     flex-direction: column;
