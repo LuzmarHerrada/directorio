@@ -20,7 +20,7 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
 </head>
 <body>
-    <header class="menu bg-[url('src/img/inicio.png')] bg-cover lg:flex hidden p-4 justify-start lg:justify-end h-fit w-full">
+    <header class="menu bg-[#575755]  bg-cover flex p-4 justify-start lg:justify-end h-fit w-full">
         <!-- <a href="/index.html"> 
             <img
             src="src/img/Company.png"
@@ -41,7 +41,7 @@
         </a>          
         <section id="inicio" class="h-2/3 w-full flex bg-[url('src/img/home.jpeg')] bg-cover">
             <div class="flex flex-col justify-center items-center w-full h-full px-10 lg:px-24 py-32">
-                <h2 class="flex font-extrabold text-5xl text-center mb-2">SOBRE&nbsp;<strong class="bg-[#ef16fa] text-white texto-borde  w-fit text-center">NOSOTROS</strong></h2>
+                <h2 class="flex flex-col lg:flex-row font-extrabold text-5xl text-center mb-4">SOBRE&nbsp;<strong class="bg-[#ef16fa] text-white texto-borde  w-fit text-center">NOSOTROS</strong></h2>
                 <h2 class="flex font-extrabold text-4xl text-center text-[#000] mb-5">¿QUIENES SOMOS?</h2>
                 <p class="w-full text-center h-full lg:px-60 px-5 pt-6 text-2xl text-[#fffb] font-light">
                     Somos una comunidad de mujeres que busca crecer personal, espiritual y empresarialmente a través de conferencias, asesorías y diplomados aliándonos con los expertos.
@@ -56,64 +56,80 @@
                 </div>
             </div>
         </section>
-        <section id="resultados" class="h-full w-full flex justify-center items-center mt-20 mb-32">
+        <section id="resultados" class="h-full w-full flex justify-center items-center mt-20 mb-5">
                 <div class="flex flex-col lg:px-60 w-full justify-center items-center">
                     <h2 class="text-4xl font-extrabold text-center mb-8 bg-[#fff] text-black w-fit texto-borde">MISION</h2>
-                    <p class="text-2xl mb-14 font-light text-center text-[#545454]">
+                    <p class="text-2xl mb-14 font-light  text-justify lg:text-center text-[#545454] px-5">
                         Ayudar a la mayor cantidad de mujeres en todo Latinoamérica ayudándolas a crecer personal, espiritual y empresarialmente con expertos en diferentes temas
                     </p>
-                    <div class="flex flex-col lg:flex-row w-full justify-center px-20">
+                    <div class="flex flex-col lg:flex-row w-full justify-center px-5 lg:px-20">
                         <div class="flex flex-col w-full justify-center ">    
                             <div class="flex w-full justify-start items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ef16fa" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ef16fa" class="bi bi-check-circle" viewBox="0 0 16 16">
                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                                     <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
                                 </svg>
-                                <p class="text-lg text-left font-light text-[#545454] my-2">&nbsp;DESCUBRE CÓMO SER UN EXPERTO EN TUS FINANZAS.</p>
+                                <p class="text-lg text-left font-light text-[#545454] my-2 ml-1">&nbsp;DESCUBRE CÓMO SER UN EXPERTO EN TUS FINANZAS.</p>
                             </div>             
                             <div class="flex w-full justify-start items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ef16fa" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ef16fa" class="bi bi-check-circle" viewBox="0 0 16 16">
                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                                     <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
                                 </svg>
-                                <p class="text-lg text-left font-light text-[#545454] my-2">&nbsp;APRENDE A DETECTAR TU RELACIÓN CON El DINERO.<br></p>      
+                                <p class="text-lg text-left font-light text-[#545454] my-2 ml-1">&nbsp;APRENDE A DETECTAR TU RELACIÓN CON El DINERO.<br></p>      
                             </div>
                             <div class="flex w-full justify-start items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ef16fa" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ef16fa" class="hidden lg:flex bi bi-check-circle" viewBox="0 0 16 16">
                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                                     <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
                                 </svg>
-                                <p class="text-lg text-left font-light text-[#545454] my-2">&nbsp;CAMPAÑAS PARA INSTAGRAM</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ef16fa" class="lg:hidden flex bi bi-check-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                    <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+                                </svg>
+                                <p class="text-lg text-left font-light text-[#545454] my-2 ml-1">&nbsp;CAMPAÑAS PARA INSTAGRAM</p>
                             </div>
                             <div class="flex w-full justify-start items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ef16fa" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#ef16fa" class="hidden lg:flex bi bi-check-circle" viewBox="0 0 16 16">
                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                                     <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
                                 </svg>
-                                <p class="text-lg text-left font-light text-[#545454] my-2">&nbsp;CAMPAÑAS PARA FACEBOOK</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ef16fa" class="lg:hidden flex bi bi-check-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                    <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+                                </svg>
+                                <p class="text-lg text-left font-light text-[#545454] my-2 ml-1">&nbsp;CAMPAÑAS PARA FACEBOOK</p>
                             </div>
                         </div>
                         <div class="flex flex-col w-full items-center">
                             <div class="flex w-full justify-start items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ef16fa" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ef16fa" class="hidden lg:flex bi bi-check-circle" viewBox="0 0 16 16">
                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                                     <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
                                 </svg>
-                                <p class="text-lg text-left font-light text-[#545454] my-2">&nbsp;HAZ CRECER TU EMPRESA CON FACEBOOK, INSTAGRAM Y GOOGLE.</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="#ef16fa" class="lg:hidden flex bi bi-check-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                    <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+                                </svg>
+                                <p class="text-lg text-left font-light text-[#545454] my-2 ml-1">&nbsp;HAZ CRECER TU EMPRESA CON FACEBOOK, INSTAGRAM Y GOOGLE.</p>
                             </div>
                             <div class="flex w-full justify-start items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ef16fa" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="#ef16fa" class="bi bi-check-circle" viewBox="0 0 16 16">
                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                                     <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
                                 </svg>
-                                <p class="text-lg text-left font-light text-[#545454] my-2">&nbsp;CONOCE LOS 3 PRINCIPIOS DE LAS FINANZAS INTELIGENTES.</p>
+                                <p class="text-lg text-left font-light text-[#545454] my-2 ml-1">&nbsp;CONOCE LOS 3 PRINCIPIOS DE LAS FINANZAS INTELIGENTES.</p>
                             </div>
                             <div class="flex w-full justify-start items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ef16fa" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="#ef16fa" class="hidden lg:flex bi bi-check-circle" viewBox="0 0 16 16">
                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                                     <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
                                 </svg>
-                                <p class="text-lg text-left font-light text-[#545454] my-2">&nbsp;CHAT EN VIVO Y WHATSAPP</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ef16fa" class="lg:hidden flex bi bi-check-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                    <path d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"/>
+                                </svg>
+                                <p class="text-lg text-left font-light text-[#545454] my-2 ml-1">&nbsp;CHAT EN VIVO Y WHATSAPP</p>
                             </div>
                         </div>
                     </div>
@@ -129,13 +145,13 @@
             </section>
             <section class="flex justify-center items-center w-full h-full mb-40">
                 <!-- <div class="flex flex-col w-full mt-10 justify-center items-center"> -->
-                    <div id="slider" class="w-full lg:w-2/3 z-0" data-aos="zoom-in">
+                    <div id="slider" class="w-full lg:w-1/2 z-0" data-aos="zoom-in">
                         <figure>
-                          <img src="src/img/Slide.jpg" alt="" class="h-[40rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
-                          <img src="src/img/Slide2.jpg" alt="" class="h-[40rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
-                          <img src="src/img/Slide3.jpg" alt="" class="h-[40rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
-                          <img src="src/img/Slide.jpg" alt="" class="h-[40rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
-                          <img src="src/img/Slide2.jpg" alt="" class="h-[40rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
+                          <img src="src/img/Slide.jpg" alt="" class="h-[45rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
+                          <img src="src/img/Slide2.jpg" alt="" class="h-[45rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
+                          <img src="src/img/Slide3.jpg" alt="" class="h-[45rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
+                          <img src="src/img/Slide.jpg" alt="" class="h-[45rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
+                          <img src="src/img/Slide2.jpg" alt="" class="h-[45rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
                         </figure>
                       </div>
                 <!-- </div> -->
