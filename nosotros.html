@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/src/whatsapp.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
 </head>
 <body>
@@ -120,19 +121,22 @@
                     </div>
                 </div>
             </section>
-            <section class="flex justify-center items-center w-full h-full">
-                <div class="flex flex-col lg:w-1/2 w-full lg:mt-0 mt-10 justify-center items-end">
-                    <div id="slider" class="w-full lg:w-2/3 z-0" data-aos="zoom-out">
+            <section class="flex justify-center items-center w-full h-full mb-40">
+                <!-- <div class="flex flex-col w-full mt-10 justify-center items-center"> -->
+                    <div id="slider" class="w-full lg:w-2/3 z-0" data-aos="zoom-in">
                         <figure>
-                          <img src="src/img/Slide.jpg" alt="" class="h-[30rem] rounded-md sm:w-full z-0">
-                          <img src="src/img/Slide2.jpg" alt="" class="h-[30rem] rounded-md sm:w-full z-0">
-                          <img src="src/img/Slide3.jpg" alt="" class="h-[30rem] rounded-md sm:w-full z-0">
-                          <img src="src/img/Slide.jpg" alt="" class="h-[30rem] rounded-md sm:w-full z-0">
-                          <img src="src/img/Slide2.jpg" alt="" class="h-[30rem] rounded-md sm:w-full z-0">
+                          <img src="src/img/Slide.jpg" alt="" class="h-[40rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
+                          <img src="src/img/Slide2.jpg" alt="" class="h-[40rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
+                          <img src="src/img/Slide3.jpg" alt="" class="h-[40rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
+                          <img src="src/img/Slide.jpg" alt="" class="h-[40rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
+                          <img src="src/img/Slide2.jpg" alt="" class="h-[40rem] shadow-2xl border border-[#999999] shadow-black rounded-md sm:w-full z-0">
                         </figure>
                       </div>
-                </div>
+                <!-- </div> -->
             </section>
     </main>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
